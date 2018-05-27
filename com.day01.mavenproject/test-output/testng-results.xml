@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="51747" started-at="2018-05-27T11:42:40Z" finished-at="2018-05-27T11:43:32Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="51747" started-at="2018-05-27T11:42:40Z" finished-at="2018-05-27T11:43:32Z">
+      <class name="com.day01.mavenproject.Amazon_search">
+        <test-method status="PASS" signature="browser_Invoke()[pri:0, instance:com.day01.mavenproject.Amazon_search@1c7cbad]" name="browser_Invoke" is-config="true" duration-ms="28975" started-at="2018-05-27T17:12:40Z" finished-at="2018-05-27T17:13:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_Invoke -->
+        <test-method status="PASS" signature="navigate_url()[pri:0, instance:com.day01.mavenproject.Amazon_search@1c7cbad]" name="navigate_url" duration-ms="10938" started-at="2018-05-27T17:13:09Z" finished-at="2018-05-27T17:13:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigate_url -->
+        <test-method status="PASS" signature="Search_product()[pri:0, instance:com.day01.mavenproject.Amazon_search@1c7cbad]" name="Search_product" duration-ms="8010" started-at="2018-05-27T17:13:20Z" finished-at="2018-05-27T17:13:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search_product -->
+        <test-method status="PASS" signature="Get_productlist()[pri:0, instance:com.day01.mavenproject.Amazon_search@1c7cbad]" name="Get_productlist" duration-ms="2352" started-at="2018-05-27T17:13:28Z" finished-at="2018-05-27T17:13:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Get_productlist -->
+        <test-method status="PASS" signature="Close_browser()[pri:0, instance:com.day01.mavenproject.Amazon_search@1c7cbad]" name="Close_browser" is-config="true" duration-ms="1347" started-at="2018-05-27T17:13:30Z" finished-at="2018-05-27T17:13:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_browser -->
+      </class> <!-- com.day01.mavenproject.Amazon_search -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
