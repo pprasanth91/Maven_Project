@@ -14,7 +14,7 @@ import org.testng.annotations.Test;
 import com.relevantcodes.extentreports.ExtentReports;
 import com.relevantcodes.extentreports.LogStatus;
 
-public class Amazon_search {
+public class Amazon_search_Test {
 	
 	public static WebDriver driver;
 	public static String brurl = "https:\\www.amazon.in";
@@ -25,17 +25,17 @@ public class Amazon_search {
 	
 	@BeforeTest
 	public static void browser_Invoke() {
-		logger.init("C:\\Users\\acer\\Desktop\\Eclipse\\com.day01.mavenproject\\Reports\\reports.html", true);
+		logger.init("C:\\Users\\p.b.prabhakaran\\git\\Maven_Project\\com.day01.mavenproject\\Reports\\reports.html", true);
 		logger.startTest("Invoke Browser" , "Opening the Browser");
 		switch (iBroType) {
 		case 1:
 			System.out.println("User Option is : "+iBroType+", So Invoking Chrome Browser");
-			System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\drivers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 		case 2:
 			System.out.println("User Option is : "+iBroType+", So Invoking FireFox Browser");
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\acer\\Downloads\\drivers\\geckodriver.exe");
+			//System.setProperty("webdriver.gecko.driver", "C:\\Users\\acer\\Downloads\\drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 			}
