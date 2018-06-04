@@ -30,12 +30,12 @@ public class Amazon_search_Test {
 		switch (iBroType) {
 		case 1:
 			System.out.println("User Option is : "+iBroType+", So Invoking Chrome Browser");
-			//System.setProperty("webdriver.chrome.driver", "C:\\Users\\acer\\Downloads\\drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\p.b.prabhakaran\\Downloads\\JDK Path\\Browser Drivers\\chromedriver.exe");
 			driver = new ChromeDriver();
 			break;
 		case 2:
 			System.out.println("User Option is : "+iBroType+", So Invoking FireFox Browser");
-			//System.setProperty("webdriver.gecko.driver", "C:\\Users\\acer\\Downloads\\drivers\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\p.b.prabhakaran\\Downloads\\JDK Path\\Browser Drivers\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			break;
 			}
@@ -87,7 +87,7 @@ public class Amazon_search_Test {
 			logger.log(LogStatus.FAIL, "Product Search Failed");
 		}
 		logger.endTest();
-		//return SearchResult;
+	
 		}
 	
 	@Test (priority=2)
